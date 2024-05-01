@@ -13,6 +13,19 @@ Languages supported:
 * Groovy
 * CSS
 
+File icons (not the full list):
+* Java/Kotlin/Groovy/Jar
+* JavaScript/TypeScript/NPM
+* AWS Cloudformation/CDK
+* Azure Devops pipelines
+* Git
+* Gradle/Gradle Kotlin DSL
+* SQL
+* HTML/CSS/Markdown
+* Images
+* XML/YAML/JSON
+* Eclipse files/VSCode files
+
 
 ## Install
 

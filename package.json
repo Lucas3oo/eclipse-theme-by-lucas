@@ -2,7 +2,7 @@
   "name": "eclipse-theme-by-solrike",
   "displayName": "Eclipse theme by Solrike",
   "description": "Colour and icon themes inspired by Eclipse. Mainly supports Java and TypeScript/JavaScript",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "license": "MIT",
   "author": "Lucas Persson",
   "publisher": "solrike",
@@ -33,6 +33,26 @@
   "icon": "assets/icon.png",
   "readme": "README.md",
   "contributes": {
+		"languages": [
+			{
+				"id": "azure-pipelines",
+				"filenamePatterns": [
+					"*azure-pipelines*.yml",
+					"*azure-pipelines*.yaml",
+					".azure-pipelines.yml",
+					".azure-pipelines.yaml",
+					"**/azure-pipelines/**/*.yml",
+					"**/azure-pipelines/**/*.yaml",
+					"**/.azure-pipelines/**/*.yml",
+					"**/.azure-pipelines/**/*.yaml",
+					".vsts-ci.yml",
+					"vsts-ci.yml"
+				],
+				"aliases": [
+					"Azure Pipelines"
+				]
+			}
+    ],
     "themes": [
       {
         "label": "Eclipse Light by Solrike",

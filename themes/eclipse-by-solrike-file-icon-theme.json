@@ -1,7 +1,13 @@
 {
   "iconDefinitions": {
-    "_aws_cdk":{
+    "_aws_cdk": {
       "iconPath": "../assets/file-icons/aws-cdk.png"
+    },
+    "_aws_cloudformation": {
+      "iconPath": "../assets/file-icons/aws-cloudformation.png"
+    },
+    "_azure_pipelines": {
+      "iconPath": "../assets/file-icons/azure-pipelines.png"
     },
     "_build-folder": {
       "iconPath": "../assets/file-icons/output_folder_attrib@2x.png"
@@ -57,6 +63,9 @@
     "_json": {
       "iconPath": "../assets/file-icons/json@2x.png"
     },
+    "_kotlin": {
+      "iconPath": "../assets/file-icons/kotlin-file.gif"
+    },
     "_launch_json": {
       "iconPath": "../assets/file-icons/lrun_obj.gif"
     },
@@ -107,6 +116,7 @@
     ".gitkeep": "_git",
     ".gitmodules": "_git",
     ".project": "_java_project",
+    "cdk.context.json": "_aws_cdk",
     "cdk.json": "_aws_cdk",
     "gradlew": "_gradle",
     "gradlew.bat": "_gradle",
@@ -117,12 +127,16 @@
   },
   "hidesExplorerArrows": false,
   "languageIds": {
+    "azure-pipelines": "_azure_pipelines",
     "css": "_css",
+    "gradle": "_gradle",
+    "gradle-kotlin-dsl": "_gradle",
     "groovy": "_groovy",
     "html": "_html",
     "java": "_java",
     "javascript": "_javascript",
     "json": "_json",
+    "kotlin": "_kotlin",
     "markdown": "_markdown",
     "sql": "_sql",
     "typescript": "_typescript",
@@ -131,7 +145,8 @@
   },
   "fileExtensions": {
     "class": "_java_class",
-    "gradle": "_gradle",
+    "cloudformation/yaml": "_aws_cloudformation",
+    "cloudformation/yml": "_aws_cloudformation",
     "gif": "_image",
     "jar": "_jar",
     "js": "_javascript",

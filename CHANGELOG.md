@@ -5,6 +5,13 @@ All notable changes to the "eclipse-theme-by-solrike" extension will be document
 
 ## [Unreleased]
 
+## [0.0.5] - 2024-05-01
+
+- Adding icons for AWS Cloudformation files in folders called "cloudformation"
+- Adding icons for Kotlin and Gradle Kotlin DSL
+- Adding icons for Azure Devops pipelines
+- Add file name associations for Azure Devops pipelines
+
 ## [0.0.4] - 2023-05-26
 
 - Adding icons for images and AWS CDK
